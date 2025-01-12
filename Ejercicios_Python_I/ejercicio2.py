@@ -1,0 +1,5 @@
+precio = input("Introduce el precio de un producto con dos decimales: ")
+precioFloat = float(precio)
+precioEntero = int(precioFloat)
+centimos = round((precioFloat - precioEntero)*100)
+print("El precio entero es de " + str(precioEntero) + " y los centimos " + str(centimos))
